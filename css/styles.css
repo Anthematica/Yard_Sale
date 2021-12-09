@@ -1,0 +1,19 @@
+:root {
+    --veryLigthPink: #C7C7C7;
+    --white: #FFFFFF;
+    --textInputField: #F7F7F7;
+    --hospitalGreen: #ACD9B2;
+    --black: #000000;
+    --dark: #232830;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+
+body {
+    /*Defining fonts*/
+    font-family: 'Quicksand', sans-serif;
+
+}
