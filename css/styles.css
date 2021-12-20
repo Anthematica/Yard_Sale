@@ -47,6 +47,11 @@ body {
     justify-self: center;
 }
 
+.edit-title {
+    justify-self: normal;
+    margin-bottom: 40px;
+}
+
 .login-subtitle {
     color: var(--veryLigthPink);
     font-size: 1.6rem;
@@ -74,7 +79,7 @@ body {
     height: 30px;
     font-size: 1.6rem;
     padding: 6px;
-    margin-bottom: 12px;
+    margin-bottom: 15px;
 }
 
 .primary-button {
@@ -180,5 +185,14 @@ body {
     position: absolute;
     bottom: 0;
     margin-bottom: 20px;
+}
+
+/*Boton de la pantalla editar cuenta*/
+.editbutton {
+    background-color: var(--hospitalGreen);
+    color: var(--white);
+    border: none;
+    margin-top: 20px;
+
 }
 
