@@ -1,0 +1,85 @@
+:root {
+    --veryLigthPink: #C7C7C7;
+    --white: #FFFFFF;
+    --textInputField: #F7F7F7;
+    --hospitalGreen: #ACD9B2;
+    --black: #000000;
+    --dark: #232830;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /*Defining fonts*/
+    font-family: 'Quicksand', sans-serif;
+} 
+
+.cards-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 240px); /*Propiedad que permite que las grillas se ordenen segun el tamaño de la pantalla*/
+    gap: 24px;
+    place-content: center;
+}
+
+.product-card {
+    width: 240px;
+}
+
+.product-card img {
+    width: 240px;
+    height: 240px;
+    border-radius: 20px;
+    object-fit: cover; /*La imagen conservara su forma original independientemente del width y el heigt que le demos a la imagen*/
+}
+
+.product-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.product-info figure img {
+    width: 35px;
+    height: 35px;
+}
+
+.product-info figure {
+    margin: 0;
+}
+
+.product-info {
+    margin-top: 8px;
+}
+
+.product-info div p:nth-child(1) {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+.product-info div p:nth-child(2) {
+    font-size: 1rem;
+    color: var(--veryLigthPink);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+/*Phone screen*/
+@media (max-width: 640px) {
+    .cards-container{
+        grid-template-columns: repeat(auto-fill, 140px); /*Propiedad que permite que las grillas se ordenen segun el tamaño de la pantalla*/
+    }
+
+    .product-card {
+        width: 140px;
+    }
+
+    .product-card img {
+        width: 140px;
+        height: 140px;
+    }
+
+}
