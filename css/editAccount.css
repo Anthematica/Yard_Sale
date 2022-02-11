@@ -1,0 +1,72 @@
+:root {
+    --veryLigthPink: #C7C7C7;
+    --white: #FFFFFF;
+    --textInputField: #F7F7F7;
+    --hospitalGreen: #ACD9B2;
+    --black: #000000;
+    --dark: #232830;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /*Defining fonts*/
+    font-family: 'Quicksand', sans-serif;
+} 
+
+.container {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.myAccountForm {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+}
+
+.loginTitle {
+    font-size: 1.8rem;
+    margin-bottom: 20px;
+}
+
+.label {
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.myAccountInput {
+    background-color: var(--textInputField);
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    font-size: 1.6rem;
+    padding: 6px;
+    margin-bottom: 15px;
+}
+
+.container button {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 8px;
+    padding: 8px;
+    width: 300px;
+    height: 50px;
+    background-color: var(--white);
+    border: 2px solid var(--hospitalGreen);
+    color: var(--hospitalGreen);
+    font-size: 1.6rem;
+}
