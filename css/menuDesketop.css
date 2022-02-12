@@ -1,0 +1,76 @@
+:root {
+    --veryLigthPink: #C7C7C7;
+    --white: #FFFFFF;
+    --textInputField: #F7F7F7;
+    --hospitalGreen: #ACD9B2;
+    --black: #000000;
+    --dark: #232830;
+}
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    /*Defining fonts*/
+    font-family: 'Quicksand', sans-serif;
+} 
+
+.desktop-menu {
+    width: 100px;
+    height: auto;
+    border: 1px solid var(--veryLigthPink);
+    padding: 20px 20px 0 20px;
+    border-radius: 6px;
+}
+
+.desktop-menu ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.desktop-menu ul li {
+    text-align: right;
+}
+
+.desktop-menu ul li:last-child {
+    padding-top: 20px;
+    border-top: 1px solid var(--veryLigthPink);
+}
+.desktop-menu ul li:last-child a {
+   color: var(--hospitalGreen);
+   font-size: 1rem;
+}
+.desktop-menu ul li a {
+    color: var(--black);
+    font-weight: bold;
+    font-size: 1rem;
+    text-decoration: none;
+    margin-bottom: 20px;
+    display: inline-block;
+
+}
+
+
+/* .desktop-menu ul li:nth-child(1),li:nth-child(2) {
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 15px;
+}
+.desktop-menu ul li a:nth-child(1) {
+    color: var(--black);
+}
+
+.desktop-menu ul li:last-child {
+    margin-top: 10px;
+    border-top: 1px solid var(--hospitalGreen);
+}
+ul li a:last-child {
+    color: var(--hospitalGreen);
+} */
